@@ -64,7 +64,7 @@ export default function Home(props) {
                                             <TableCell align="right">UserName</TableCell>
                                             <TableCell align="right">Email</TableCell>
                                             <TableCell align="right">Phone</TableCell>
-                                            <TableCell align="right">Website</TableCell>
+                                            <TableCell align="right">Websites</TableCell>
                                         </TableRow>
                                     </TableHead>
                                     <TableBody>
