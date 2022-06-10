@@ -108,6 +108,32 @@
   margin-left: 0.5rem;
 }
 
+.navigate_button {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.navigate_button:hover {
+  opacity: 0.5;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+}
+
+.containerPage {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bodyContent {
+  margin-top: 20px;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
