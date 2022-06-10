@@ -1,9 +1,9 @@
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import Button from '@mui/material/Button';
-import Head from 'next/Head';
-import Image from 'next/Image';
-import Script from 'next/script';
+import Head from 'Next/Head';
+import Image from 'Next/Image';
+import Script from 'Next/script';
 
 // export async function getServerSideProps(context) {
 //     const data = await fetch('https://jsonplaceholder.typicode.com/users/1');
