@@ -1,5 +1,3 @@
-import { useRouter } from 'next/router'
-import { useEffect, useState } from 'react';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -19,8 +17,6 @@ export async function getStaticPaths() {
             params: { uid: item.id.toString() },
         }
     })
-    console.log("map data : ", paths);
-
     return {
         paths,
         fallback: true // false or 'blocking'
